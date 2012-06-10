@@ -5,7 +5,7 @@ New layout and skin for bbb playback module.
 
 Features:
 
-  + Full-width player contols locked to bottom of screen.
+  + Full-width player controls locked to bottom of screen.
   + New skin (css)
   + Right side modules:
     + Chat
