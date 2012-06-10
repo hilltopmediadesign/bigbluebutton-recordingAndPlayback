@@ -12,6 +12,7 @@ Features:
     + Download audio (currently .wav)
     + Share Link To Presentation (Email)
     + Credits
+  + Moved js code to a separate file
 
 Installation:
 
