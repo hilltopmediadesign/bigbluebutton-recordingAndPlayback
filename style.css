@@ -1,0 +1,67 @@
+html{
+	height:100%;
+        
+}
+body {
+        background-color:#808080;
+	font-family: Verdana;
+        width:75%;
+}
+h1 {
+	text-align:center
+}
+br{
+	display:none
+}
+
+#playbackArea-wrap{
+
+}
+#playbackArea{
+        float:left;
+	width: 800px;
+	height: 700px;
+        z-index:1;
+}
+
+#audioplayer-wrap{
+
+}
+
+#audioRecording{
+ 	display: block;
+        position:fixed; bottom:0; height:100px; width:99%;
+        z-index:1000;   
+}
+
+#slide{
+	background-image:url('../images/logo.png');
+}
+
+
+#chatcontainer{
+    float:right;
+    width:300px;
+    height:600px;
+    border:1px solid #000;
+
+}
+#chat{
+
+}
+#chat div p{
+
+	padding:0px;
+	font-size:13px
+}
+#big {display:none}
+#mid {display:none}
+
+#footer{
+        margin-left: auto;
+        margin-right: auto;
+        font-size:0.75em;
+        color: #666;
+
+        text-align: center;
+}
