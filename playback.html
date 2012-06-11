@@ -7,6 +7,9 @@
   <link rel="stylesheet" href="css/bbb.playback.css">
   <script type="text/javascript" src="js/playback.js"></script>
   <script src="lib/popcorn-complete.min.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js" type="text/javascript"></script>
+  
+  
 </head>
 <body>
 
@@ -15,17 +18,22 @@
 	<div id="playbackArea">
 		<div id="slide"></div>			
     </div>
-    <div id="chatcontainer">
-			<div id="chat">Chat Area</div>
+    <div id="rightPanel">
+			<div id="chatBox">
+				<div id="chatBoxHeading">Chat</div>
+				<div id="chat"></div>
+			</div>
 			<div id="download" onclick="getAudio()">Download Audio</div>
 			<div id="share" onclick="share()">Share Link To Presentation</div>
 			<div id="credits">Recorded with <a href="http://bigbluebutton.org/">BigBlueButton</a>.</div>
 			
 	</div>
 </div>	
+
 <audio id="audioRecording" controls > You must use an HTML5 capable browser to view this page.
 		This playback requires modern browser, please use FF, Safari, Chrome</audio>
 
+<script>checkBrowser()</script>
 </body>
 </html>
 

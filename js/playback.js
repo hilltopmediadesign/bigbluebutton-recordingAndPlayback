@@ -52,3 +52,12 @@
 		
 		window.location='mailto:?subject=BigBlueButton Presentation Link&body='+window.location;
 	}
+
+	function checkBrowser(){
+		if (navigator.userAgent.indexOf("Firefox")!=-1){
+			$('#audioRecording').css('height','100px');
+		}
+		
+		
+		
+	}
