@@ -50,6 +50,12 @@ br{
 	margin:0 auto;
 }
 
+#slide img{
+	display:block;
+	margin:0 auto;
+	position:static !important;
+	/* box-shadow: 5px 5px #bbbbbb; */
+}
 
 #rightPanel{
     float:left;
